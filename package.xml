@@ -1,0 +1,23 @@
+<package>
+  <name>readbag</name>
+  <version>1.1</version>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rosbag</build_depend>
+  <run_depend>rosbag</run_depend>
+  <run_depend>std_srvs</run_depend>
+  <run_depend>ros</run_depend> <!-- Depend on ros for backwards compatability.  This will be removed in Hydro -->
+ 
+  <depend package="std_msgs"/>
+  <depend package="cv_bridge"/> 
+  <depend package="sensor_msgs"/>
+
+
+  <export>
+    <metapackage/>
+  </export>
+
+</package>
+
+
+
+
